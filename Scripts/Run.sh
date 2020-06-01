@@ -12,7 +12,7 @@ done
 declare -a TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | cut -d "_" -f 4 | cut -d "." -f 1`)
 
 
-for type in "$TypesOfData[@]"
+for type in "${TypesOfData[@]}"
 do
 grep $type /home/erenada/BirdTree/Scripts/FileNames.txt > $type
 done
