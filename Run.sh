@@ -1,4 +1,4 @@
 for file in (1..12)
 do
-  echo Files
+  echo file
 done
