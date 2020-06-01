@@ -13,10 +13,7 @@ done
 # do
 for type in TypesOfData
 do
-  for missing in $Msp
-  do
-grep '$type' FileNames.txt  | grep '$missing' >> outputnames.txt
-done
+grep '$type' FileNames.txt  | grep '${Msp[*]}' >> outputnames.txt
 done
 # done
 #
