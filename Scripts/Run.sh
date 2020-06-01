@@ -14,7 +14,7 @@ declare -a TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | 
 
 for type in ${TypesOfData}
 do
-grep '$type /home/erenada/BirdTree/Scripts' >> outputnames.txt
+grep '$type' /home/erenada/BirdTree/Scripts >> outputnames.txt
 done
 # done
 #
