@@ -11,7 +11,7 @@ done
 
 # for i in {0..5}
 # do
-for type in $TypesOfData
+for type in ${TypesOfData}
 do
 grep '$type' FileNames.txt >> outputnames.txt
 done
