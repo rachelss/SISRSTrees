@@ -9,6 +9,6 @@ do
   declare -a Files=(`ls /home/erenada/BirdTree/Alignments/$1/$2/`)
 for missing in ${Msp[*]}
 do
-echo "/home/erenada/BirdTree/Alignments/AllSites/Gap/$missing/$Files"
+echo "/home/erenada/BirdTree/Alignments/AllSites/Gap/$missing/${Files[@]}"
 done
 done
