@@ -6,7 +6,7 @@ for file in {0..5}
 do
 declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/$1/$2/`)
 declare -a Files=(`ls /home/erenada/BirdTree/Alignments/$1/$2/${Msp[$file]}/`)
-echo $Msp #${Files[*]} | tr " " "\n" >> FileNames.txt
+echo $Msp[*] #${Files[*]} | tr " " "\n" >> FileNames.txt
 done
 
 
