@@ -11,10 +11,13 @@ done
 
 # for i in {0..5}
 # do
-# for type in TypesOfData
-# do
-#   grep '$type' FileNames.txt  | grep ${Msp[$file]} >> outputnames.txt
-# done
+for type in TypesOfData
+do
+  for missing in $Msp
+  do
+grep '$type' FileNames.txt  | grep $missing >> outputnames.txt
+done
+done
 # done
 #
 #
