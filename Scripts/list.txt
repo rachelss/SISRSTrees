@@ -1,0 +1,12 @@
+AllSISRS
+AllUniquelyMapped
+CDS
+gene
+genic-other
+intergenic
+intron
+lncRNA
+pseudogene
+smRNA
+UTR3
+UTR5
