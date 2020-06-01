@@ -5,5 +5,5 @@ for file in {0..5}
 do
 declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/$1/$2/`)
 declare -a Files=(`ls /home/erenada/BirdTree/Alignments/$1/$2/${Msp[$file]}/`)
-echo ${Files[*]} | tr " " "\n"
+echo ${Files[*]} | tr " " "\n" | cut -d "." -f 1
 done
