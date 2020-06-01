@@ -15,6 +15,7 @@ for type in TypesOfData
 do
   grep '$type' FileNames.txt  | grep ${Msp[$file]}
 done
+done
 
 
 
