@@ -13,7 +13,7 @@ done
 # do
 for type in TypesOfData
 do
-grep '$type' FileNames.txt  | grep '${Msp[*]}' >> outputnames.txt
+grep '$type' FileNames.txt >> outputnames.txt
 done
 # done
 #
