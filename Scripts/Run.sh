@@ -13,7 +13,7 @@ for i in {0..5}
 do
 for type in TypesOfData
 do
-  grep '$type' FileNames.txt  | grep ${Msp[$file]}
+  grep '$type' FileNames.txt  | grep ${Msp[$file]} >> outputnames.txt
 done
 done
 
