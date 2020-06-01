@@ -7,6 +7,6 @@ for data in ${TypesOfData[*]}
 do
 for missing in ${Msp[*]}
 do
-echo "/home/erenada/BirdTree/Alignments/AllSites/Gap/$missing/*"$data"*"
+echo "/home/erenada/BirdTree/Alignments/AllSites/Gap/$missing/$data"
 done
 done
