@@ -6,3 +6,4 @@ do
 declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/$1/$2/`)
 declare Files=(`$(ls /home/erenada/BirdTree/Alignments/$1/$2/${Msp[$file]}/)`)
 echo ${Files[*]}
+done
