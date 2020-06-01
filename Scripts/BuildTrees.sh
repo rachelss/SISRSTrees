@@ -3,7 +3,7 @@
 
 #declare -a TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | cut -d "_" -f 4 | cut -d "." -f 1`)
 declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/$1/$2/`)
-declare -a TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/$missing)
+declare -a TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/$missing`)
 
 
 for data in ${TypesOfData[*]}
