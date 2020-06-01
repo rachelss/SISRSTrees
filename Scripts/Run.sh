@@ -9,11 +9,12 @@ declare -a Files=(`ls /home/erenada/BirdTree/Alignments/$1/$2/${Msp[$file]}/`)
 echo ${Files[*]} |  tr " " "\n" >> FileNames.txt
 done
 
-# for i in {0..5}
-# do
+declare -a TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | cut -d "_" -f 4 | cut -d "." -f 1`)
+
+
 for type in ${TypesOfData}
 do
-grep '$type' FileNames.txt >> outputnames.txt
+grep '$type /home/erenada/BirdTree/Scripts' >> outputnames.txt
 done
 # done
 #
