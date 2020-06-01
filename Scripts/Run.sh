@@ -15,7 +15,7 @@ for type in TypesOfData
 do
   for missing in $Msp
   do
-grep '$type' FileNames.txt  | grep $missing >> outputnames.txt
+grep '$type' FileNames.txt  | grep '$missing' >> outputnames.txt
 done
 done
 # done
