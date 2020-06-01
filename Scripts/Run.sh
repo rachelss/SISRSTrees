@@ -6,18 +6,18 @@ for file in {0..5}
 do
 declare -a Msp=(`ls /home/erenada/BirdTree/Alignments/$1/$2/`)
 declare -a Files=(`ls /home/erenada/BirdTree/Alignments/$1/$2/${Msp[$file]}/`)
-echo ${Files[*]} | tr " " "\n" >> FileNames.txt
+echo ${Files[*] | tr " " "\n"}
 done
 
-for i in {0..5}
-do
-for type in TypesOfData
-do
-  grep '$type' FileNames.txt  | grep ${Msp[$file]} >> outputnames.txt
-done
-done
-
-
+# for i in {0..5}
+# do
+# for type in TypesOfData
+# do
+#   grep '$type' FileNames.txt  | grep ${Msp[$file]} >> outputnames.txt
+# done
+# done
+#
+#
 
 
 
