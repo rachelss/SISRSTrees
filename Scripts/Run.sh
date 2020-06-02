@@ -21,7 +21,7 @@ do
   do
     echo ${IQCOMMAND/InputAlignment/{$line}}
   done
-  
+done
 
 # for type in "${TypesOfData[@]}"
 # do
