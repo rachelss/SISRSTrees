@@ -1,0 +1,6 @@
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m0_CDS.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m1_CDS.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m2_CDS.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m3_CDS.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m4_CDS.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m5_CDS.phylip-relaxed

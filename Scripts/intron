@@ -1,0 +1,6 @@
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m0_intron.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m1_intron.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m2_intron.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m3_intron.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m4_intron.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m5_intron.phylip-relaxed

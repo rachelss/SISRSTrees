@@ -1,0 +1,6 @@
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m0_genic-other.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m1_genic-other.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m2_genic-other.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m3_genic-other.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m4_genic-other.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m5_genic-other.phylip-relaxed

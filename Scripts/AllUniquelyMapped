@@ -1,0 +1,6 @@
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m0_AllUniquelyMapped.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m1_AllUniquelyMapped.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m2_AllUniquelyMapped.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m3_AllUniquelyMapped.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m4_AllUniquelyMapped.phylip-relaxed
+iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20	Jarvis_pi_m5_AllUniquelyMapped.phylip-relaxed
