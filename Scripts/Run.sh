@@ -15,7 +15,7 @@ IQCOMMAND="iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20"
 
 for type in "${TypesOfData[@]}"
 do
-echo ${IQCOMMAND/InputAlignment/${type[*]}}
+echo ${IQCOMMAND/InputAlignment/${TypesOfData[@]}}
 done
 
 
