@@ -11,24 +11,15 @@ done
 
 declare -a TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | cut -d "_" -f 4 | cut -d "." -f 1`)
 
-
-for type in "${TypesOfData[@]}"
-do
-grep $type /home/erenada/BirdTree/Scripts/FileNames.txt > $type
-done
-
 IQCOMMAND="iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20"
 
 for type in "${TypesOfData[@]}"
 do
-echo $IQCOMMAND | tr "InputAlignment" "${Files[*]}"
+echo ${IQCOMMAND/InputAlignment/${type[*]}
 done
 
-# done
-#
-#
 
 
 
-
-  ##output directory: /home/erenada/BirdTree/Trees/AllSites/Gap/AllSISRS/m0
+##output directory: /home/erenada/BirdTree/Trees/AllSites/Gap/AllSISRS/m0
+# grep $type /home/erenada/BirdTree/Scripts/FileNames.txt > $type
