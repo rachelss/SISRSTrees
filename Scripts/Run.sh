@@ -11,12 +11,10 @@ done
 
 declare -a TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | cut -d "_" -f 4 | cut -d "." -f 1`)
 
-IQCOMMAND="iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20"
-
 
 for type in ${TypesOfData[@]}
 do
-paste "$IQCOMMAND" /home/erenada/BirdTree/Scripts/FileNames.txt
+paste /home/erenada/BirdTree/Scripts/IQCommand.txt /home/erenada/BirdTree/Scripts/FileNames.txt
 done
 
 # for type in "${TypesOfData[@]}"
