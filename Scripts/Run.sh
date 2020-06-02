@@ -19,7 +19,7 @@ do
   input=/home/erenada/BirdTree/Scripts/$type
   while IFS= read -r line
   do
-    echo ${IQCOMMAND/InputAlignment/${line}}
+    echo ${IQCOMMAND/InputAlignment/test}
   done
 done
 
