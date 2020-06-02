@@ -16,11 +16,7 @@ IQCOMMAND="iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20"
 
 for type in ${TypesOfData[@]}
 do
-  input=/home/erenada/BirdTree/Scripts/$type
-  while IFS= read -r line
-  do
-    echo ${IQCOMMAND/InputAlignment/test}
-  done
+paste $IQCOMMAND /home/erenada/BirdTree/Scripts/FileNames.txt
 done
 
 # for type in "${TypesOfData[@]}"
