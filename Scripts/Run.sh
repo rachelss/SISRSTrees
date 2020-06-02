@@ -15,7 +15,7 @@ input="/home/erenada/BirdTree/Scripts/FileNames.txt"
 while IFS= read- r line
 do
   paste /home/erenada/BirdTree/Scripts/IQCommand.txt /home/erenada/BirdTree/Scripts/FileNames.txt
-done <alltogether.txt
+done <FileNames.txt
 
 
 # for type in ${TypesOfData[@]}
