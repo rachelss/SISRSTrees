@@ -13,10 +13,20 @@ declare -a TypesOfData=(`ls /home/erenada/BirdTree/Alignments/AllSites/Gap/m0 | 
 
 IQCOMMAND="iqtree -s InputAlignment -m GTR+I+R -B 1000 -T 20"
 
-for type in "${TypesOfData[@]}"
+
+for type in ${TypesOfData[@]}
 do
-echo ${IQCOMMAND/InputAlignment/${TypesOfData[*]}}
-done
+  input=/home/erenada/BirdTree/Scripts/$type
+  while IFS= read -r line
+  do
+    echo ${IQCOMMAND/InputAlignment/{$line}}
+  done
+  
+
+# for type in "${TypesOfData[@]}"
+# do
+# echo ${IQCOMMAND/InputAlignment/${TypesOfData[*]}}
+# done
 
 
 
