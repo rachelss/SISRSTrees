@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --job-name="TreeBuild_ALLSISRS"
-#SBATCH --time=168:00:00  # walltime limit (HH:MM:SS)
+#SBATCH --time=150:00:00  # walltime limit (HH:MM:SS)
 #SBATCH --nodes=1   # number of nodes
 #SBATCH --ntasks-per-node=20   # processor core(s) per node
 #SBATCH --mail-user="erenada@uri.edu"
 #SBATCH --mail-type=END,FAIL
-#SBATCH --output="TreeBuild_ALLSISRS"
-#SBATCH --error="TreeBuild_ALLSISRS"
+#SBATCH --output="out_TreeBuild_ALLSISRS"
+#SBATCH --error="err_TreeBuild_ALLSISRS"
 #SBATCH --exclusive
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
 
