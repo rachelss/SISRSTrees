@@ -1,0 +1,1194 @@
+IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Sep 24 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n026.cluster.com (AVX, 125 GB RAM)
+Command: iqtree -s /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+Seed:    640068 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun  2 21:25:29 2020
+Kernel:  AVX - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 48 sequences with 1358 columns, 1274 distinct patterns
+1358 parsimony-informative, 0 singleton sites, 0 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  AcaChl    0.07%    failed      1.90%
+   2  AnaPla    0.00%    passed     96.80%
+   3  AntCar    0.00%    passed     82.16%
+   4  ApaVit    0.00%    passed     97.57%
+   5  AptFor    0.00%    passed     92.06%
+   6  BalReg    0.00%    passed     78.90%
+   7  BucRhi    0.07%    passed     51.02%
+   8  CalAnn    0.00%    passed     86.86%
+   9  CarCri    0.00%    passed     97.49%
+  10  CatAur    0.00%    passed     57.19%
+  11  ChaPel    0.00%    passed     93.44%
+  12  ChaVoc    0.00%    passed     99.43%
+  13  ChlMac    0.00%    passed     98.55%
+  14  ColLiv    0.00%    passed     83.78%
+  15  ColStr    0.07%    passed     86.93%
+  16  CorBra    0.00%    passed     27.17%
+  17  CucCan    0.00%    passed     90.43%
+  18  EgrGar    0.00%    passed     92.87%
+  19  EurHel    0.00%    passed     82.39%
+  20  FalPer    0.00%    passed     89.46%
+  21  FulGla    0.00%    passed     90.75%
+  22  GalGal    0.00%    passed     62.76%
+  23  GavSte    0.00%    passed     69.91%
+  24  GeoFor    0.00%    failed      2.17%
+  25  HalAlb    0.00%    passed     53.80%
+  26  HalLeu    0.00%    passed     56.12%
+  27  LepDis    0.07%    passed     95.49%
+  28  ManVit    0.00%    passed     88.34%
+  29  MelGal    0.00%    passed     97.78%
+  30  MelUnd    0.00%    passed     73.34%
+  31  MerNub    0.00%    failed      3.49%
+  32  MesUni    0.00%    passed     97.14%
+  33  NesNot    0.07%    passed     92.27%
+  34  NipNip    0.07%    passed     93.26%
+  35  OpiHoa    0.15%    passed     85.49%
+  36  PelCri    0.00%    passed     73.21%
+  37  PhaCar    0.00%    passed     96.79%
+  38  PhaLep    0.00%    passed     98.79%
+  39  PhoRub    0.07%    passed     90.80%
+  40  PicPub    0.07%    passed     15.77%
+  41  PodCri    0.07%    passed     71.29%
+  42  PteGut    0.00%    passed     94.61%
+  43  PygAde    0.00%    passed     97.65%
+  44  StrCam    0.00%    passed     51.98%
+  45  TaeGut    0.15%    passed     26.05%
+  46  TauEry    0.00%    passed     80.51%
+  47  TinGut    0.07%    passed     59.34%
+  48  TytAlb    0.00%    passed     29.33%
+****  TOTAL     0.02%  3 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 640068)...
+
+NOTE: 12 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+151 trees examined
+Threads: 1 / Time: 20.044 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -25888
+Threads: 2 / Time: 15.646 sec / Speedup: 1.281 / Efficiency: 64% / LogL: -25888
+Threads: 3 / Time: 12.256 sec / Speedup: 1.635 / Efficiency: 55% / LogL: -25888
+Threads: 4 / Time: 7.685 sec / Speedup: 2.608 / Efficiency: 65% / LogL: -25888
+Threads: 5 / Time: 7.537 sec / Speedup: 2.659 / Efficiency: 53% / LogL: -25888
+Threads: 6 / Time: 7.339 sec / Speedup: 2.731 / Efficiency: 46% / LogL: -25888
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -23420.327
+2. Current log-likelihood: -21292.591
+3. Current log-likelihood: -21276.138
+4. Current log-likelihood: -21268.897
+5. Current log-likelihood: -21265.921
+6. Current log-likelihood: -21265.067
+7. Current log-likelihood: -21264.871
+Optimal log-likelihood: -21264.821
+Rate parameters:  A-C: 0.88544  A-G: 5.43779  A-T: 0.52439  C-G: 1.12383  C-T: 5.34585  G-T: 1.00000
+Base frequencies:  A: 0.279  C: 0.211  G: 0.220  T: 0.290
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.370,0.898) (0.494,0.899) (0.088,0.899) (0.048,3.022)
+Parameters optimization took 7 rounds (0.638 sec)
+Computing ML distances based on estimated model parameters... 0.048 sec
+Computing BIONJ tree...
+0.060 seconds
+Log-likelihood of BIONJ tree: -21271.986
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.683 second
+Computing log-likelihood of 98 initial trees ... 0.754 seconds
+Current best score: -21241.397
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -21227.652
+Iteration 10 / LogL: -21242.027 / Time: 0h:1m:14s
+Iteration 20 / LogL: -21240.439 / Time: 0h:1m:16s
+Finish initializing candidate tree set (20)
+Current best tree score: -21227.652 / CPU time: 4.651
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -21227.794 / Time: 0h:1m:17s (0h:3m:10s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -21226.369
+Iteration 40 / LogL: -21257.718 / Time: 0h:1m:19s (0h:3m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -21226.330
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -21224.790
+Iteration 50 / LogL: -21229.519 / Time: 0h:1m:21s (0h:2m:38s left)
+Log-likelihood cutoff on original alignment: -21266.207
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -21224.678
+Iteration 60 / LogL: -21226.164 / Time: 0h:1m:24s (0h:2m:13s left)
+UPDATE BEST LOG-LIKELIHOOD: -21224.678
+Iteration 70 / LogL: -21224.989 / Time: 0h:1m:26s (0h:1m:44s left)
+UPDATE BEST LOG-LIKELIHOOD: -21224.678
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -21223.178
+Iteration 80 / LogL: -21224.889 / Time: 0h:1m:27s (0h:1m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -21222.696
+Iteration 90 / LogL: -21229.463 / Time: 0h:1m:29s (0h:1m:34s left)
+Iteration 100 / LogL: -21224.421 / Time: 0h:1m:31s (0h:1m:17s left)
+Log-likelihood cutoff on original alignment: -21266.207
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.953
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UPDATE BEST LOG-LIKELIHOOD: -21222.695
+Iteration 110 / LogL: -21225.144 / Time: 0h:1m:33s (0h:1m:17s left)
+Iteration 120 / LogL: -21229.345 / Time: 0h:1m:35s (0h:1m:4s left)
+Iteration 130 / LogL: -21223.186 / Time: 0h:1m:37s (0h:0m:52s left)
+Iteration 140 / LogL: -21222.696 / Time: 0h:1m:39s (0h:0m:42s left)
+Iteration 150 / LogL: -21222.696 / Time: 0h:1m:41s (0h:0m:33s left)
+Log-likelihood cutoff on original alignment: -21266.207
+Iteration 160 / LogL: -21224.397 / Time: 0h:1m:43s (0h:0m:25s left)
+Iteration 170 / LogL: -21232.129 / Time: 0h:1m:44s (0h:0m:18s left)
+Iteration 180 / LogL: -21222.696 / Time: 0h:1m:46s (0h:0m:11s left)
+Iteration 190 / LogL: -21254.074 / Time: 0h:1m:48s (0h:0m:5s left)
+Iteration 200 / LogL: -21253.866 / Time: 0h:1m:50s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -21266.207
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:1m:50s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21222.695
+Optimal log-likelihood: -21222.695
+Rate parameters:  A-C: 0.89128  A-G: 5.44220  A-T: 0.51403  C-G: 1.13462  C-T: 5.34809  G-T: 1.00000
+Base frequencies:  A: 0.279  C: 0.211  G: 0.220  T: 0.290
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.371,0.900) (0.495,0.900) (0.089,0.900) (0.045,3.103)
+Parameters optimization took 1 rounds (0.034 sec)
+BEST SCORE FOUND : -21222.695
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed.splits.nex
+Total tree length: 3.463
+
+Total number of iterations: 200
+CPU time used for tree search: 145.711 sec (0h:2m:25s)
+Wall-clock time used for tree search: 39.069 sec (0h:0m:39s)
+Total CPU time used: 348.325 sec (0h:5m:48s)
+Total wall-clock time used: 110.715 sec (0h:1m:50s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed.splits.nex...
+48 taxa and 649 splits.
+Consensus tree written to /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed.contree
+Reading input trees file /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed.contree
+Log-likelihood of consensus tree: -21227.625
+
+Analysis results written to: 
+  IQ-TREE report:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed.iqtree
+  Maximum-likelihood tree:       /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed.treefile
+  Likelihood distances:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed.splits.nex
+  Consensus tree:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed.contree
+  Screen log file:               /home/erenada/BirdTree/Alignments/AllSites/Gap/m0/Jarvis_pi_m0_pseudogene.phylip-relaxed.log
+
+Date and Time: Tue Jun  2 21:27:20 2020
+IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Sep 24 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n026.cluster.com (AVX, 125 GB RAM)
+Command: iqtree -s /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+Seed:    841059 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun  2 21:27:20 2020
+Kernel:  AVX - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 48 sequences with 3161 columns, 3063 distinct patterns
+3160 parsimony-informative, 1 singleton sites, 0 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  AcaChl    2.69%    failed      0.03%
+   2  AnaPla    1.87%    passed     95.93%
+   3  AntCar    1.80%    passed     67.06%
+   4  ApaVit    1.39%    passed     93.81%
+   5  AptFor    0.70%    passed     82.59%
+   6  BalReg    0.57%    passed     64.07%
+   7  BucRhi    1.20%    passed     23.82%
+   8  CalAnn    0.51%    passed     62.89%
+   9  CarCri    0.54%    passed     81.45%
+  10  CatAur    2.15%    passed     41.02%
+  11  ChaPel    1.33%    passed     80.21%
+  12  ChaVoc    0.76%    passed     96.45%
+  13  ChlMac    0.54%    passed     92.76%
+  14  ColLiv    1.46%    passed     39.50%
+  15  ColStr    0.98%    passed     91.94%
+  16  CorBra    0.66%    failed      0.97%
+  17  CucCan    1.20%    passed     51.99%
+  18  EgrGar    0.54%    passed     97.97%
+  19  EurHel    0.89%    passed      9.88%
+  20  FalPer    0.73%    passed     95.09%
+  21  FulGla    0.38%    passed     61.13%
+  22  GalGal    1.39%    passed     87.81%
+  23  GavSte    0.44%    passed     49.54%
+  24  GeoFor    1.27%    failed      0.13%
+  25  HalAlb    0.98%    passed     50.77%
+  26  HalLeu    0.51%    passed     48.16%
+  27  LepDis    0.79%    passed     94.10%
+  28  ManVit    1.74%    passed     52.57%
+  29  MelGal    1.83%    passed     96.85%
+  30  MelUnd    1.01%    passed     27.01%
+  31  MerNub    1.46%    failed      3.32%
+  32  MesUni    0.85%    passed     83.70%
+  33  NesNot    0.44%    passed     73.59%
+  34  NipNip    1.04%    passed     30.87%
+  35  OpiHoa    2.85%    passed     74.00%
+  36  PelCri    0.51%    passed     48.05%
+  37  PhaCar    0.38%    passed     67.21%
+  38  PhaLep    0.51%    passed     84.29%
+  39  PhoRub    0.47%    passed     73.91%
+  40  PicPub    2.88%    passed      9.40%
+  41  PodCri    0.92%    passed     96.46%
+  42  PteGut    0.60%    passed     74.68%
+  43  PygAde    1.30%    passed     63.83%
+  44  StrCam    0.70%    passed     36.71%
+  45  TaeGut    1.68%    passed      7.60%
+  46  TauEry    0.57%    passed     89.18%
+  47  TinGut    8.32%    passed     27.96%
+  48  TytAlb    0.44%    passed     67.55%
+****  TOTAL     1.22%  4 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.011 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 841059)...
+
+NOTE: 30 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+64 trees examined
+Threads: 1 / Time: 20.298 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -62539
+Threads: 2 / Time: 16.175 sec / Speedup: 1.255 / Efficiency: 63% / LogL: -62539
+Threads: 3 / Time: 10.355 sec / Speedup: 1.960 / Efficiency: 65% / LogL: -62539
+Threads: 4 / Time: 6.977 sec / Speedup: 2.909 / Efficiency: 73% / LogL: -62539
+Threads: 5 / Time: 5.755 sec / Speedup: 3.527 / Efficiency: 71% / LogL: -62539
+Threads: 6 / Time: 8.390 sec / Speedup: 2.419 / Efficiency: 40% / LogL: -62539
+BEST NUMBER OF THREADS: 5
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -56054.128
+2. Current log-likelihood: -50982.478
+3. Current log-likelihood: -50920.995
+4. Current log-likelihood: -50911.563
+5. Current log-likelihood: -50910.498
+Optimal log-likelihood: -50910.412
+Rate parameters:  A-C: 0.97144  A-G: 5.82888  A-T: 0.59234  C-G: 1.27353  C-T: 6.08608  G-T: 1.00000
+Base frequencies:  A: 0.282  C: 0.212  G: 0.229  T: 0.277
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.094,0.858) (0.380,0.859) (0.471,0.860) (0.055,3.419)
+Parameters optimization took 5 rounds (1.632 sec)
+Computing ML distances based on estimated model parameters... 0.081 sec
+Computing BIONJ tree...
+0.031 seconds
+Log-likelihood of BIONJ tree: -50905.696
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.278 second
+Computing log-likelihood of 98 initial trees ... 1.653 seconds
+Current best score: -50870.115
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -50862.746
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -50840.754
+Iteration 10 / LogL: -50869.821 / Time: 0h:1m:16s
+Iteration 20 / LogL: -50876.046 / Time: 0h:1m:19s
+Finish initializing candidate tree set (20)
+Current best tree score: -50840.754 / CPU time: 9.630
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -50837.370
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -50835.842
+Iteration 30 / LogL: -50841.279 / Time: 0h:1m:23s (0h:4m:42s left)
+Iteration 40 / LogL: -50840.279 / Time: 0h:1m:26s (0h:3m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -50835.612
+Iteration 50 / LogL: -50843.342 / Time: 0h:1m:30s (0h:2m:52s left)
+Log-likelihood cutoff on original alignment: -50889.847
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -50834.284
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -50833.619
+Iteration 60 / LogL: -50841.196 / Time: 0h:1m:33s (0h:2m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -50832.477
+Iteration 70 / LogL: -50839.287 / Time: 0h:1m:37s (0h:2m:11s left)
+Iteration 80 / LogL: -50835.227 / Time: 0h:1m:40s (0h:1m:45s left)
+Iteration 90 / LogL: -50833.640 / Time: 0h:1m:43s (0h:1m:24s left)
+Iteration 100 / LogL: -50832.477 / Time: 0h:1m:46s (0h:1m:7s left)
+Log-likelihood cutoff on original alignment: -50882.050
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UPDATE BEST LOG-LIKELIHOOD: -50832.477
+UPDATE BEST LOG-LIKELIHOOD: -50832.477
+Iteration 110 / LogL: -50832.498 / Time: 0h:1m:50s (0h:1m:31s left)
+Iteration 120 / LogL: -50832.508 / Time: 0h:1m:53s (0h:1m:16s left)
+Iteration 130 / LogL: -50839.294 / Time: 0h:1m:56s (0h:1m:3s left)
+Iteration 140 / LogL: -50833.597 / Time: 0h:1m:59s (0h:0m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 143: -50832.303
+Iteration 150 / LogL: -50832.484 / Time: 0h:2m:3s (0h:1m:16s left)
+Log-likelihood cutoff on original alignment: -50882.050
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 155: -50832.286
+Iteration 160 / LogL: -50838.987 / Time: 0h:2m:6s (0h:1m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 166: -50831.135
+Iteration 170 / LogL: -50835.137 / Time: 0h:2m:10s (0h:1m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 177: -50830.850
+Iteration 180 / LogL: -50833.495 / Time: 0h:2m:13s (0h:1m:12s left)
+UPDATE BEST LOG-LIKELIHOOD: -50830.848
+Iteration 190 / LogL: -50832.785 / Time: 0h:2m:16s (0h:1m:2s left)
+Iteration 200 / LogL: -50831.423 / Time: 0h:2m:20s (0h:0m:54s left)
+Log-likelihood cutoff on original alignment: -50882.050
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+UPDATE BEST LOG-LIKELIHOOD: -50830.848
+Iteration 210 / LogL: -50830.848 / Time: 0h:2m:23s (0h:1m:1s left)
+Iteration 220 / LogL: -50830.852 / Time: 0h:2m:26s (0h:0m:53s left)
+Iteration 230 / LogL: -50832.012 / Time: 0h:2m:30s (0h:0m:45s left)
+Iteration 240 / LogL: -50831.142 / Time: 0h:2m:32s (0h:0m:38s left)
+Iteration 250 / LogL: -50830.849 / Time: 0h:2m:35s (0h:0m:31s left)
+Log-likelihood cutoff on original alignment: -50882.050
+Iteration 260 / LogL: -50833.719 / Time: 0h:2m:39s (0h:0m:24s left)
+Iteration 270 / LogL: -50831.209 / Time: 0h:2m:42s (0h:0m:18s left)
+TREE SEARCH COMPLETED AFTER 278 ITERATIONS / Time: 0h:2m:44s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -50830.848
+Optimal log-likelihood: -50830.848
+Rate parameters:  A-C: 0.98631  A-G: 5.89614  A-T: 0.59563  C-G: 1.28040  C-T: 6.10906  G-T: 1.00000
+Base frequencies:  A: 0.282  C: 0.212  G: 0.229  T: 0.277
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.384,0.872) (0.476,0.872) (0.095,0.872) (0.044,3.761)
+Parameters optimization took 1 rounds (0.070 sec)
+BEST SCORE FOUND : -50830.848
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed.splits.nex
+Total tree length: 3.744
+
+Total number of iterations: 278
+CPU time used for tree search: 451.902 sec (0h:7m:31s)
+Wall-clock time used for tree search: 94.996 sec (0h:1m:34s)
+Total CPU time used: 651.309 sec (0h:10m:51s)
+Total wall-clock time used: 165.114 sec (0h:2m:45s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed.splits.nex...
+48 taxa and 667 splits.
+Consensus tree written to /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed.contree
+Reading input trees file /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed.contree
+Log-likelihood of consensus tree: -50831.140
+
+Analysis results written to: 
+  IQ-TREE report:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed.iqtree
+  Maximum-likelihood tree:       /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed.treefile
+  Likelihood distances:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed.splits.nex
+  Consensus tree:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed.contree
+  Screen log file:               /home/erenada/BirdTree/Alignments/AllSites/Gap/m1/Jarvis_pi_m1_pseudogene.phylip-relaxed.log
+
+Date and Time: Tue Jun  2 21:30:06 2020
+IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Sep 24 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n026.cluster.com (AVX, 125 GB RAM)
+Command: iqtree -s /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+Seed:    400438 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun  2 21:30:06 2020
+Kernel:  AVX - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 48 sequences with 4655 columns, 4557 distinct patterns
+4648 parsimony-informative, 5 singleton sites, 2 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  AcaChl    4.25%    failed      0.23%
+   2  AnaPla    3.63%    passed     94.03%
+   3  AntCar    3.18%    passed     61.59%
+   4  ApaVit    2.30%    passed     90.95%
+   5  AptFor    1.83%    passed     70.85%
+   6  BalReg    1.03%    passed     51.18%
+   7  BucRhi    2.00%    failed      4.71%
+   8  CalAnn    1.31%    passed     54.05%
+   9  CarCri    0.86%    passed     86.84%
+  10  CatAur    3.52%    passed     33.42%
+  11  ChaPel    2.81%    passed     78.55%
+  12  ChaVoc    1.33%    passed     80.95%
+  13  ChlMac    1.14%    passed     59.95%
+  14  ColLiv    2.30%    passed     28.78%
+  15  ColStr    2.34%    passed     99.33%
+  16  CorBra    1.22%    failed      0.10%
+  17  CucCan    2.41%    passed     47.96%
+  18  EgrGar    0.88%    passed     93.14%
+  19  EurHel    1.61%    passed     11.29%
+  20  FalPer    1.10%    passed     92.60%
+  21  FulGla    0.84%    passed     31.06%
+  22  GalGal    2.51%    passed     79.49%
+  23  GavSte    0.79%    passed     37.64%
+  24  GeoFor    2.19%    failed      0.00%
+  25  HalAlb    2.06%    passed     60.39%
+  26  HalLeu    0.58%    passed     55.66%
+  27  LepDis    1.18%    passed     84.85%
+  28  ManVit    2.75%    passed     30.61%
+  29  MelGal    3.44%    passed     92.40%
+  30  MelUnd    2.84%    passed     19.08%
+  31  MerNub    2.56%    failed      0.52%
+  32  MesUni    1.53%    passed     88.16%
+  33  NesNot    1.14%    passed     62.47%
+  34  NipNip    1.85%    passed     24.74%
+  35  OpiHoa    4.02%    passed     42.06%
+  36  PelCri    1.07%    passed     22.50%
+  37  PhaCar    0.92%    passed     75.18%
+  38  PhaLep    0.84%    passed     62.11%
+  39  PhoRub    1.03%    passed     77.96%
+  40  PicPub    4.34%    failed      0.87%
+  41  PodCri    1.22%    passed     77.68%
+  42  PteGut    1.61%    passed     98.50%
+  43  PygAde    1.93%    passed     42.73%
+  44  StrCam    2.53%    passed     24.11%
+  45  TaeGut    2.69%    failed      2.30%
+  46  TauEry    0.73%    passed     83.56%
+  47  TinGut   14.05%    passed     18.44%
+  48  TytAlb    1.03%    passed     34.32%
+****  TOTAL     2.19%  7 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 400438)...
+
+NOTE: 45 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+42 trees examined
+Threads: 1 / Time: 20.085 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -93600
+Threads: 2 / Time: 14.407 sec / Speedup: 1.394 / Efficiency: 70% / LogL: -93600
+Threads: 3 / Time: 9.962 sec / Speedup: 2.016 / Efficiency: 67% / LogL: -93600
+Threads: 4 / Time: 10.416 sec / Speedup: 1.928 / Efficiency: 48% / LogL: -93600
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -84035.121
+2. Current log-likelihood: -76441.741
+3. Current log-likelihood: -76344.282
+4. Current log-likelihood: -76330.857
+5. Current log-likelihood: -76329.381
+6. Current log-likelihood: -76329.251
+Optimal log-likelihood: -76329.241
+Rate parameters:  A-C: 1.00345  A-G: 6.06219  A-T: 0.63900  C-G: 1.36316  C-T: 6.21341  G-T: 1.00000
+Base frequencies:  A: 0.284  C: 0.213  G: 0.226  T: 0.276
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.095,0.853) (0.384,0.854) (0.469,0.859) (0.052,3.635)
+Parameters optimization took 6 rounds (3.803 sec)
+Computing ML distances based on estimated model parameters... 0.108 sec
+Computing BIONJ tree...
+0.062 seconds
+Log-likelihood of BIONJ tree: -76366.530
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.879 second
+Computing log-likelihood of 98 initial trees ... 3.069 seconds
+Current best score: -76329.241
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -76293.809
+Iteration 10 / LogL: -76318.905 / Time: 0h:1m:10s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -76293.141
+Iteration 20 / LogL: -76313.136 / Time: 0h:1m:17s
+Finish initializing candidate tree set (20)
+Current best tree score: -76293.141 / CPU time: 18.681
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -76290.922
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -76287.745
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -76287.642
+Iteration 30 / LogL: -76287.708 / Time: 0h:1m:24s (0h:4m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -76286.017
+Iteration 40 / LogL: -76287.659 / Time: 0h:1m:30s (0h:3m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -76285.429
+Iteration 50 / LogL: -76287.677 / Time: 0h:1m:36s (0h:3m:6s left)
+Log-likelihood cutoff on original alignment: -76352.271
+Iteration 60 / LogL: -76286.022 / Time: 0h:1m:42s (0h:2m:26s left)
+Iteration 70 / LogL: -76679.449 / Time: 0h:1m:47s (0h:1m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 73: -76285.285
+Iteration 80 / LogL: -76287.226 / Time: 0h:1m:54s (0h:2m:14s left)
+Iteration 90 / LogL: -76289.912 / Time: 0h:2m:0s (0h:1m:51s left)
+Iteration 100 / LogL: -76285.436 / Time: 0h:2m:6s (0h:1m:32s left)
+Log-likelihood cutoff on original alignment: -76349.767
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+BETTER TREE FOUND at iteration 109: -76285.282
+Iteration 110 / LogL: -76287.620 / Time: 0h:2m:12s (0h:2m:0s left)
+Iteration 120 / LogL: -76285.435 / Time: 0h:2m:17s (0h:1m:43s left)
+UPDATE BEST LOG-LIKELIHOOD: -76285.281
+Iteration 130 / LogL: -76285.452 / Time: 0h:2m:24s (0h:1m:28s left)
+Iteration 140 / LogL: -76287.006 / Time: 0h:2m:30s (0h:1m:14s left)
+UPDATE BEST LOG-LIKELIHOOD: -76285.281
+Iteration 150 / LogL: -76285.282 / Time: 0h:2m:36s (0h:1m:1s left)
+Log-likelihood cutoff on original alignment: -76349.767
+Iteration 160 / LogL: -76285.454 / Time: 0h:2m:41s (0h:0m:49s left)
+Iteration 170 / LogL: -76295.104 / Time: 0h:2m:47s (0h:0m:38s left)
+UPDATE BEST LOG-LIKELIHOOD: -76285.281
+Iteration 180 / LogL: -76289.364 / Time: 0h:2m:53s (0h:0m:28s left)
+Iteration 190 / LogL: -76286.028 / Time: 0h:2m:59s (0h:0m:17s left)
+Iteration 200 / LogL: -76287.529 / Time: 0h:3m:4s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -76349.767
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 210 / LogL: -76289.363 / Time: 0h:3m:10s (0h:1m:22s left)
+TREE SEARCH COMPLETED AFTER 210 ITERATIONS / Time: 0h:3m:10s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -76285.281
+Optimal log-likelihood: -76285.275
+Rate parameters:  A-C: 1.00567  A-G: 6.06779  A-T: 0.63974  C-G: 1.36049  C-T: 6.21904  G-T: 1.00000
+Base frequencies:  A: 0.284  C: 0.213  G: 0.226  T: 0.276
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.095,0.854) (0.384,0.855) (0.469,0.856) (0.052,3.645)
+Parameters optimization took 1 rounds (0.215 sec)
+BEST SCORE FOUND : -76285.275
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed.splits.nex
+Total tree length: 3.908
+
+Total number of iterations: 210
+CPU time used for tree search: 384.292 sec (0h:6m:24s)
+Wall-clock time used for tree search: 131.631 sec (0h:2m:11s)
+Total CPU time used: 517.202 sec (0h:8m:37s)
+Total wall-clock time used: 191.063 sec (0h:3m:11s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed.splits.nex...
+48 taxa and 514 splits.
+Consensus tree written to /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed.contree
+Reading input trees file /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed.contree
+Log-likelihood of consensus tree: -76286.929
+
+Analysis results written to: 
+  IQ-TREE report:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed.iqtree
+  Maximum-likelihood tree:       /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed.treefile
+  Likelihood distances:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed.splits.nex
+  Consensus tree:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed.contree
+  Screen log file:               /home/erenada/BirdTree/Alignments/AllSites/Gap/m2/Jarvis_pi_m2_pseudogene.phylip-relaxed.log
+
+Date and Time: Tue Jun  2 21:33:17 2020
+IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Sep 24 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n026.cluster.com (AVX, 125 GB RAM)
+Command: iqtree -s /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+Seed:    978687 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun  2 21:33:17 2020
+Kernel:  AVX - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 48 sequences with 5690 columns, 5592 distinct patterns
+5676 parsimony-informative, 9 singleton sites, 5 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  AcaChl    5.73%    failed      0.70%
+   2  AnaPla    4.45%    passed     87.10%
+   3  AntCar    3.94%    passed     42.65%
+   4  ApaVit    3.04%    passed     71.27%
+   5  AptFor    2.30%    passed     58.79%
+   6  BalReg    1.39%    passed     52.12%
+   7  BucRhi    2.62%    failed      3.94%
+   8  CalAnn    2.16%    passed     63.34%
+   9  CarCri    1.53%    passed     91.28%
+  10  CatAur    4.60%    passed     36.07%
+  11  ChaPel    3.85%    passed     89.83%
+  12  ChaVoc    1.72%    passed     80.08%
+  13  ChlMac    1.51%    passed     79.07%
+  14  ColLiv    2.93%    passed     47.58%
+  15  ColStr    3.57%    passed     89.73%
+  16  CorBra    2.00%    failed      0.07%
+  17  CucCan    3.81%    passed     41.45%
+  18  EgrGar    1.25%    passed     98.40%
+  19  EurHel    2.97%    passed     15.03%
+  20  FalPer    1.37%    passed     64.83%
+  21  FulGla    1.05%    passed     47.02%
+  22  GalGal    3.25%    passed     82.13%
+  23  GavSte    1.04%    passed     23.50%
+  24  GeoFor    3.48%    failed      0.00%
+  25  HalAlb    3.02%    passed     41.26%
+  26  HalLeu    0.74%    passed     45.00%
+  27  LepDis    1.60%    passed     79.12%
+  28  ManVit    3.25%    passed     14.90%
+  29  MelGal    4.96%    passed     68.47%
+  30  MelUnd    3.66%    passed     26.78%
+  31  MerNub    3.30%    failed      0.03%
+  32  MesUni    1.92%    passed     90.84%
+  33  NesNot    1.72%    passed     58.01%
+  34  NipNip    2.06%    passed     12.83%
+  35  OpiHoa    4.67%    passed     33.64%
+  36  PelCri    1.18%    passed     25.99%
+  37  PhaCar    1.49%    passed     85.60%
+  38  PhaLep    1.04%    passed     81.33%
+  39  PhoRub    1.39%    passed     69.61%
+  40  PicPub    5.43%    failed      1.57%
+  41  PodCri    1.55%    passed     86.06%
+  42  PteGut    2.34%    passed     99.73%
+  43  PygAde    2.34%    passed     41.87%
+  44  StrCam    4.31%    passed     29.18%
+  45  TaeGut    3.27%    failed      2.05%
+  46  TauEry    1.27%    passed     93.06%
+  47  TinGut   18.12%    passed      8.68%
+  48  TytAlb    1.65%    passed     16.96%
+****  TOTAL     2.95%  7 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.022 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 978687)...
+
+NOTE: 56 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+34 trees examined
+Threads: 1 / Time: 20.240 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -114870
+Threads: 2 / Time: 15.415 sec / Speedup: 1.313 / Efficiency: 66% / LogL: -114870
+Threads: 3 / Time: 10.640 sec / Speedup: 1.902 / Efficiency: 63% / LogL: -114870
+Threads: 4 / Time: 8.349 sec / Speedup: 2.424 / Efficiency: 61% / LogL: -114870
+Threads: 5 / Time: 5.435 sec / Speedup: 3.724 / Efficiency: 74% / LogL: -114870
+Threads: 6 / Time: 5.294 sec / Speedup: 3.823 / Efficiency: 64% / LogL: -114870
+Threads: 7 / Time: 6.335 sec / Speedup: 3.195 / Efficiency: 46% / LogL: -114870
+BEST NUMBER OF THREADS: 5
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -103647.249
+2. Current log-likelihood: -94220.776
+3. Current log-likelihood: -94104.571
+4. Current log-likelihood: -94090.580
+5. Current log-likelihood: -94089.331
+6. Current log-likelihood: -94089.214
+Optimal log-likelihood: -94089.201
+Rate parameters:  A-C: 1.02084  A-G: 6.13330  A-T: 0.65148  C-G: 1.31864  C-T: 6.21057  G-T: 1.00000
+Base frequencies:  A: 0.281  C: 0.215  G: 0.226  T: 0.278
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.094,0.845) (0.383,0.846) (0.467,0.850) (0.056,3.571)
+Parameters optimization took 6 rounds (3.734 sec)
+Computing ML distances based on estimated model parameters... 0.136 sec
+Computing BIONJ tree...
+0.092 seconds
+Log-likelihood of BIONJ tree: -94024.649
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.266 second
+Computing log-likelihood of 98 initial trees ... 2.826 seconds
+Current best score: -93999.499
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -93955.666
+Iteration 10 / LogL: -93982.982 / Time: 0h:1m:26s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -93953.553
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -93953.231
+Iteration 20 / LogL: -93963.037 / Time: 0h:1m:32s
+Finish initializing candidate tree set (19)
+Current best tree score: -93953.231 / CPU time: 16.629
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -93949.261
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -93945.758
+Iteration 30 / LogL: -93948.217 / Time: 0h:1m:38s (0h:5m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -93941.455
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -93941.047
+Iteration 40 / LogL: -93945.757 / Time: 0h:1m:43s (0h:4m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -93939.230
+UPDATE BEST LOG-LIKELIHOOD: -93939.229
+Iteration 50 / LogL: -93941.549 / Time: 0h:1m:49s (0h:3m:24s left)
+Log-likelihood cutoff on original alignment: -93999.656
+Iteration 60 / LogL: -93941.478 / Time: 0h:1m:54s (0h:2m:38s left)
+Iteration 70 / LogL: -93939.323 / Time: 0h:1m:59s (0h:2m:4s left)
+UPDATE BEST LOG-LIKELIHOOD: -93939.229
+Iteration 80 / LogL: -93939.230 / Time: 0h:2m:4s (0h:1m:37s left)
+Iteration 90 / LogL: -93940.981 / Time: 0h:2m:8s (0h:1m:15s left)
+Iteration 100 / LogL: -93941.473 / Time: 0h:2m:14s (0h:0m:56s left)
+Log-likelihood cutoff on original alignment: -93999.656
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 110 / LogL: -93941.474 / Time: 0h:2m:19s (0h:1m:54s left)
+Iteration 120 / LogL: -93941.069 / Time: 0h:2m:24s (0h:1m:37s left)
+Iteration 130 / LogL: -93942.755 / Time: 0h:2m:29s (0h:1m:21s left)
+Iteration 140 / LogL: -93941.070 / Time: 0h:2m:34s (0h:1m:6s left)
+TREE SEARCH COMPLETED AFTER 143 ITERATIONS / Time: 0h:2m:36s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -93939.229
+Optimal log-likelihood: -93939.226
+Rate parameters:  A-C: 1.02462  A-G: 6.13203  A-T: 0.64865  C-G: 1.31919  C-T: 6.21725  G-T: 1.00000
+Base frequencies:  A: 0.281  C: 0.215  G: 0.226  T: 0.278
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.094,0.847) (0.384,0.847) (0.467,0.850) (0.055,3.605)
+Parameters optimization took 1 rounds (0.124 sec)
+BEST SCORE FOUND : -93939.226
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed.splits.nex
+Total tree length: 4.004
+
+Total number of iterations: 143
+CPU time used for tree search: 384.952 sec (0h:6m:24s)
+Wall-clock time used for tree search: 80.172 sec (0h:1m:20s)
+Total CPU time used: 624.334 sec (0h:10m:24s)
+Total wall-clock time used: 156.387 sec (0h:2m:36s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed.splits.nex...
+48 taxa and 449 splits.
+Consensus tree written to /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed.contree
+Reading input trees file /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed.contree
+Log-likelihood of consensus tree: -93941.352
+
+Analysis results written to: 
+  IQ-TREE report:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed.iqtree
+  Maximum-likelihood tree:       /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed.treefile
+  Likelihood distances:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed.splits.nex
+  Consensus tree:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed.contree
+  Screen log file:               /home/erenada/BirdTree/Alignments/AllSites/Gap/m3/Jarvis_pi_m3_pseudogene.phylip-relaxed.log
+
+Date and Time: Tue Jun  2 21:35:54 2020
+IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Sep 24 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n026.cluster.com (AVX, 125 GB RAM)
+Command: iqtree -s /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+Seed:    929277 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun  2 21:35:54 2020
+Kernel:  AVX - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 48 sequences with 6556 columns, 6458 distinct patterns
+6540 parsimony-informative, 10 singleton sites, 6 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  AcaChl    6.88%    failed      1.89%
+   2  AnaPla    5.40%    passed     91.91%
+   3  AntCar    4.85%    passed     33.98%
+   4  ApaVit    3.83%    passed     65.58%
+   5  AptFor    2.58%    passed     61.29%
+   6  BalReg    1.53%    passed     49.04%
+   7  BucRhi    3.66%    failed      4.18%
+   8  CalAnn    2.91%    passed     31.97%
+   9  CarCri    1.83%    passed     85.17%
+  10  CatAur    5.72%    passed     40.69%
+  11  ChaPel    4.74%    passed     88.76%
+  12  ChaVoc    2.00%    passed     79.59%
+  13  ChlMac    1.80%    passed     83.32%
+  14  ColLiv    3.25%    passed     52.17%
+  15  ColStr    4.77%    passed     81.18%
+  16  CorBra    3.08%    failed      0.06%
+  17  CucCan    4.26%    passed     41.83%
+  18  EgrGar    1.46%    passed     94.87%
+  19  EurHel    3.77%    failed      1.98%
+  20  FalPer    1.80%    passed     69.73%
+  21  FulGla    1.16%    passed     36.48%
+  22  GalGal    3.87%    passed     66.34%
+  23  GavSte    1.33%    passed     19.52%
+  24  GeoFor    5.09%    failed      0.00%
+  25  HalAlb    4.18%    passed     30.09%
+  26  HalLeu    0.96%    passed     40.58%
+  27  LepDis    1.92%    passed     83.72%
+  28  ManVit    3.69%    passed     21.79%
+  29  MelGal    6.57%    passed     71.53%
+  30  MelUnd    4.56%    passed     24.27%
+  31  MerNub    4.19%    failed      0.04%
+  32  MesUni    2.39%    passed     86.59%
+  33  NesNot    2.39%    passed     75.89%
+  34  NipNip    2.20%    passed     10.62%
+  35  OpiHoa    4.97%    passed     19.37%
+  36  PelCri    1.33%    passed     27.53%
+  37  PhaCar    2.01%    passed     93.74%
+  38  PhaLep    1.31%    passed     77.55%
+  39  PhoRub    1.72%    passed     84.95%
+  40  PicPub    6.76%    failed      1.18%
+  41  PodCri    1.80%    passed     90.35%
+  42  PteGut    3.37%    passed     96.01%
+  43  PygAde    2.62%    passed     36.15%
+  44  StrCam    6.30%    passed     18.66%
+  45  TaeGut    4.62%    failed      1.88%
+  46  TauEry    1.86%    passed     87.65%
+  47  TinGut   21.55%    passed      9.85%
+  48  TytAlb    2.04%    passed      9.05%
+****  TOTAL     3.69%  8 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.020 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 929277)...
+
+NOTE: 64 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+30 trees examined
+Threads: 1 / Time: 20.633 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -133418
+Threads: 2 / Time: 15.996 sec / Speedup: 1.290 / Efficiency: 64% / LogL: -133418
+Threads: 3 / Time: 10.495 sec / Speedup: 1.966 / Efficiency: 66% / LogL: -133418
+Threads: 4 / Time: 6.330 sec / Speedup: 3.260 / Efficiency: 81% / LogL: -133418
+Threads: 5 / Time: 5.432 sec / Speedup: 3.799 / Efficiency: 76% / LogL: -133418
+Threads: 6 / Time: 4.820 sec / Speedup: 4.281 / Efficiency: 71% / LogL: -133418
+Threads: 7 / Time: 4.410 sec / Speedup: 4.679 / Efficiency: 67% / LogL: -133418
+Threads: 8 / Time: 4.301 sec / Speedup: 4.797 / Efficiency: 60% / LogL: -133418
+Threads: 9 / Time: 4.044 sec / Speedup: 5.102 / Efficiency: 57% / LogL: -133418
+Threads: 10 / Time: 3.728 sec / Speedup: 5.535 / Efficiency: 55% / LogL: -133418
+Threads: 11 / Time: 3.606 sec / Speedup: 5.721 / Efficiency: 52% / LogL: -133418
+Threads: 12 / Time: 3.492 sec / Speedup: 5.909 / Efficiency: 49% / LogL: -133418
+BEST NUMBER OF THREADS: 10
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -120580.579
+2. Current log-likelihood: -109757.959
+3. Current log-likelihood: -109629.788
+4. Current log-likelihood: -109617.425
+5. Current log-likelihood: -109616.391
+Optimal log-likelihood: -109616.295
+Rate parameters:  A-C: 1.06224  A-G: 6.12343  A-T: 0.67121  C-G: 1.36298  C-T: 6.26459  G-T: 1.00000
+Base frequencies:  A: 0.278  C: 0.217  G: 0.228  T: 0.278
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.094,0.834) (0.383,0.836) (0.463,0.843) (0.060,3.502)
+Parameters optimization took 5 rounds (1.163 sec)
+Computing ML distances based on estimated model parameters... 0.176 sec
+Computing BIONJ tree...
+0.120 seconds
+Log-likelihood of BIONJ tree: -109499.118
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.639 second
+Computing log-likelihood of 98 initial trees ... 1.716 seconds
+Current best score: -109464.653
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -109407.870
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -109399.091
+Iteration 10 / LogL: -109418.176 / Time: 0h:1m:37s
+Iteration 20 / LogL: -109422.992 / Time: 0h:1m:40s
+Finish initializing candidate tree set (15)
+Current best tree score: -109399.091 / CPU time: 11.556
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -109390.733
+Iteration 30 / LogL: -109390.752 / Time: 0h:1m:44s (0h:5m:44s left)
+Iteration 40 / LogL: -109424.373 / Time: 0h:1m:47s (0h:3m:56s left)
+Iteration 50 / LogL: -109398.681 / Time: 0h:1m:50s (0h:2m:51s left)
+Log-likelihood cutoff on original alignment: -109447.549
+Iteration 60 / LogL: -109391.417 / Time: 0h:1m:54s (0h:2m:7s left)
+Iteration 70 / LogL: -109398.003 / Time: 0h:1m:57s (0h:1m:35s left)
+Iteration 80 / LogL: -109391.419 / Time: 0h:2m:0s (0h:1m:10s left)
+Iteration 90 / LogL: -109391.021 / Time: 0h:2m:3s (0h:0m:50s left)
+Iteration 100 / LogL: -109398.065 / Time: 0h:2m:6s (0h:0m:33s left)
+Log-likelihood cutoff on original alignment: -109447.549
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 110 / LogL: -109390.784 / Time: 0h:2m:10s (0h:1m:47s left)
+Iteration 120 / LogL: -109396.056 / Time: 0h:2m:13s (0h:1m:29s left)
+TREE SEARCH COMPLETED AFTER 127 ITERATIONS / Time: 0h:2m:15s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -109390.733
+Optimal log-likelihood: -109390.732
+Rate parameters:  A-C: 1.06314  A-G: 6.13051  A-T: 0.66759  C-G: 1.36539  C-T: 6.25065  G-T: 1.00000
+Base frequencies:  A: 0.278  C: 0.217  G: 0.228  T: 0.278
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.385,0.845) (0.094,0.845) (0.465,0.848) (0.056,3.612)
+Parameters optimization took 1 rounds (0.098 sec)
+BEST SCORE FOUND : -109390.732
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed.splits.nex
+Total tree length: 4.104
+
+Total number of iterations: 127
+CPU time used for tree search: 439.947 sec (0h:7m:19s)
+Wall-clock time used for tree search: 46.844 sec (0h:0m:46s)
+Total CPU time used: 839.016 sec (0h:13m:59s)
+Total wall-clock time used: 136.097 sec (0h:2m:16s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed.splits.nex...
+48 taxa and 366 splits.
+Consensus tree written to /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed.contree
+Reading input trees file /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed.contree
+Log-likelihood of consensus tree: -109390.732
+
+Analysis results written to: 
+  IQ-TREE report:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed.iqtree
+  Maximum-likelihood tree:       /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed.treefile
+  Likelihood distances:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed.splits.nex
+  Consensus tree:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed.contree
+  Screen log file:               /home/erenada/BirdTree/Alignments/AllSites/Gap/m4/Jarvis_pi_m4_pseudogene.phylip-relaxed.log
+
+Date and Time: Tue Jun  2 21:38:11 2020
+IQ-TREE multicore version 1.7-beta16 for Linux 64-bit built Sep 24 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n026.cluster.com (AVX, 125 GB RAM)
+Command: iqtree -s /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+Seed:    462985 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun  2 21:38:11 2020
+Kernel:  AVX - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 48 sequences with 7153 columns, 7054 distinct patterns
+7136 parsimony-informative, 10 singleton sites, 6 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  AcaChl    7.72%    failed      1.23%
+   2  AnaPla    6.26%    passed     92.13%
+   3  AntCar    5.34%    passed     42.12%
+   4  ApaVit    4.42%    passed     80.29%
+   5  AptFor    2.94%    passed     49.35%
+   6  BalReg    1.57%    passed     34.24%
+   7  BucRhi    4.28%    passed      7.42%
+   8  CalAnn    3.86%    passed     44.54%
+   9  CarCri    2.24%    passed     72.13%
+  10  CatAur    6.15%    passed     32.74%
+  11  ChaPel    5.68%    passed     86.14%
+  12  ChaVoc    2.14%    passed     83.19%
+  13  ChlMac    2.17%    passed     84.76%
+  14  ColLiv    3.65%    passed     41.16%
+  15  ColStr    6.01%    passed     73.98%
+  16  CorBra    3.83%    failed      0.15%
+  17  CucCan    4.52%    passed     22.79%
+  18  EgrGar    1.76%    passed     85.51%
+  19  EurHel    4.22%    failed      0.65%
+  20  FalPer    2.31%    passed     61.64%
+  21  FulGla    1.36%    passed     24.87%
+  22  GalGal    4.28%    passed     37.77%
+  23  GavSte    1.47%    passed     20.60%
+  24  GeoFor    6.64%    failed      0.01%
+  25  HalAlb    5.05%    passed     30.68%
+  26  HalLeu    1.23%    passed     44.23%
+  27  LepDis    2.01%    passed     87.04%
+  28  ManVit    4.15%    passed     21.97%
+  29  MelGal    7.81%    passed     66.54%
+  30  MelUnd    5.30%    passed     25.02%
+  31  MerNub    5.14%    failed      0.02%
+  32  MesUni    2.68%    passed     78.29%
+  33  NesNot    2.95%    passed     56.63%
+  34  NipNip    2.32%    passed      8.87%
+  35  OpiHoa    5.55%    passed     19.46%
+  36  PelCri    1.48%    passed     33.30%
+  37  PhaCar    2.50%    passed     92.10%
+  38  PhaLep    1.40%    passed     81.63%
+  39  PhoRub    1.79%    passed     93.54%
+  40  PicPub    8.04%    failed      1.30%
+  41  PodCri    2.00%    passed     90.39%
+  42  PteGut    3.82%    passed     96.37%
+  43  PygAde    2.77%    passed     28.14%
+  44  StrCam    7.68%    passed     23.88%
+  45  TaeGut    5.52%    failed      2.76%
+  46  TauEry    2.06%    passed     89.73%
+  47  TinGut   24.09%    passed      5.28%
+  48  TytAlb    2.38%    passed      9.24%
+****  TOTAL     4.26%  7 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.030 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 462985)...
+
+NOTE: 70 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+27 trees examined
+Threads: 1 / Time: 20.426 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -146228
+Threads: 2 / Time: 11.193 sec / Speedup: 1.825 / Efficiency: 91% / LogL: -146228
+Threads: 3 / Time: 8.340 sec / Speedup: 2.449 / Efficiency: 82% / LogL: -146228
+Threads: 4 / Time: 6.386 sec / Speedup: 3.199 / Efficiency: 80% / LogL: -146228
+Threads: 5 / Time: 5.749 sec / Speedup: 3.553 / Efficiency: 71% / LogL: -146228
+Threads: 6 / Time: 4.797 sec / Speedup: 4.258 / Efficiency: 71% / LogL: -146228
+Threads: 7 / Time: 4.286 sec / Speedup: 4.766 / Efficiency: 68% / LogL: -146228
+Threads: 8 / Time: 3.870 sec / Speedup: 5.278 / Efficiency: 66% / LogL: -146228
+Threads: 9 / Time: 3.591 sec / Speedup: 5.688 / Efficiency: 63% / LogL: -146228
+Threads: 10 / Time: 3.639 sec / Speedup: 5.614 / Efficiency: 56% / LogL: -146228
+Threads: 11 / Time: 3.546 sec / Speedup: 5.760 / Efficiency: 52% / LogL: -146228
+Threads: 12 / Time: 3.206 sec / Speedup: 6.371 / Efficiency: 53% / LogL: -146228
+Threads: 13 / Time: 3.080 sec / Speedup: 6.632 / Efficiency: 51% / LogL: -146228
+Threads: 14 / Time: 3.233 sec / Speedup: 6.319 / Efficiency: 45% / LogL: -146228
+BEST NUMBER OF THREADS: 12
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -132062.503
+2. Current log-likelihood: -120273.316
+3. Current log-likelihood: -120142.102
+4. Current log-likelihood: -120128.299
+5. Current log-likelihood: -120126.931
+6. Current log-likelihood: -120126.780
+Optimal log-likelihood: -120126.748
+Rate parameters:  A-C: 1.05893  A-G: 5.99902  A-T: 0.66638  C-G: 1.34868  C-T: 6.10288  G-T: 1.00000
+Base frequencies:  A: 0.277  C: 0.216  G: 0.227  T: 0.280
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.094,0.834) (0.383,0.836) (0.461,0.840) (0.063,3.427)
+Parameters optimization took 6 rounds (1.930 sec)
+Computing ML distances based on estimated model parameters... 0.255 sec
+Computing BIONJ tree...
+0.031 seconds
+Log-likelihood of BIONJ tree: -120159.368
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.841 second
+Computing log-likelihood of 98 initial trees ... 1.647 seconds
+Current best score: -120083.070
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -120036.133
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -120031.840
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -120030.935
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -120025.753
+Iteration 10 / LogL: -120025.753 / Time: 0h:1m:35s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -120020.448
+Iteration 20 / LogL: -120044.810 / Time: 0h:1m:39s
+Finish initializing candidate tree set (16)
+Current best tree score: -120020.448 / CPU time: 11.417
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -120020.327
+Iteration 30 / LogL: -120020.327 / Time: 0h:1m:42s (0h:5m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -120014.775
+Iteration 40 / LogL: -120020.572 / Time: 0h:1m:45s (0h:4m:13s left)
+Iteration 50 / LogL: -120022.262 / Time: 0h:1m:48s (0h:3m:6s left)
+Log-likelihood cutoff on original alignment: -120084.850
+Iteration 60 / LogL: -120015.290 / Time: 0h:1m:52s (0h:2m:20s left)
+Iteration 70 / LogL: -120015.777 / Time: 0h:1m:55s (0h:1m:47s left)
+UPDATE BEST LOG-LIKELIHOOD: -120014.775
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -120011.923
+Iteration 80 / LogL: -120015.109 / Time: 0h:1m:59s (0h:2m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 86: -120011.107
+Iteration 90 / LogL: -120014.904 / Time: 0h:2m:2s (0h:2m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 100: -120009.986
+Iteration 100 / LogL: -120009.986 / Time: 0h:2m:6s (0h:2m:7s left)
+Log-likelihood cutoff on original alignment: -120065.018
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -120015.782 / Time: 0h:2m:9s (0h:1m:46s left)
+Iteration 120 / LogL: -120015.476 / Time: 0h:2m:12s (0h:1m:29s left)
+Iteration 130 / LogL: -120011.114 / Time: 0h:2m:15s (0h:1m:13s left)
+Iteration 140 / LogL: -120015.360 / Time: 0h:2m:18s (0h:0m:59s left)
+Iteration 150 / LogL: -120014.782 / Time: 0h:2m:22s (0h:0m:47s left)
+Log-likelihood cutoff on original alignment: -120065.018
+Iteration 160 / LogL: -120019.320 / Time: 0h:2m:25s (0h:0m:36s left)
+Iteration 170 / LogL: -120009.997 / Time: 0h:2m:28s (0h:0m:26s left)
+Iteration 180 / LogL: -120011.952 / Time: 0h:2m:31s (0h:0m:16s left)
+Iteration 190 / LogL: -120019.450 / Time: 0h:2m:34s (0h:0m:8s left)
+Iteration 200 / LogL: -120011.113 / Time: 0h:2m:37s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -120065.018
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 201 ITERATIONS / Time: 0h:2m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -120009.986
+Optimal log-likelihood: -120009.984
+Rate parameters:  A-C: 1.06183  A-G: 6.01661  A-T: 0.66262  C-G: 1.34988  C-T: 6.09771  G-T: 1.00000
+Base frequencies:  A: 0.277  C: 0.216  G: 0.227  T: 0.280
+Proportion of invariable sites: 0.000
+Site proportion and rates:  (0.094,0.840) (0.383,0.840) (0.462,0.841) (0.060,3.482)
+Parameters optimization took 1 rounds (0.085 sec)
+BEST SCORE FOUND : -120009.984
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed.splits.nex
+Total tree length: 4.173
+
+Total number of iterations: 201
+CPU time used for tree search: 795.353 sec (0h:13m:15s)
+Wall-clock time used for tree search: 70.346 sec (0h:1m:10s)
+Total CPU time used: 1263.482 sec (0h:21m:3s)
+Total wall-clock time used: 158.309 sec (0h:2m:38s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed.splits.nex...
+48 taxa and 358 splits.
+Consensus tree written to /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed.contree
+Reading input trees file /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed.contree
+Log-likelihood of consensus tree: -120011.107
+
+Analysis results written to: 
+  IQ-TREE report:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed.iqtree
+  Maximum-likelihood tree:       /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed.treefile
+  Likelihood distances:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed.splits.nex
+  Consensus tree:                /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed.contree
+  Screen log file:               /home/erenada/BirdTree/Alignments/AllSites/Gap/m5/Jarvis_pi_m5_pseudogene.phylip-relaxed.log
+
+Date and Time: Tue Jun  2 21:40:50 2020
