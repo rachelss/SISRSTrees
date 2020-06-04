@@ -16,31 +16,31 @@ cd $SLURM_SUBMIT_DIR
 module load IQ-TREE/1.7-beta16-foss-2018b
 
 
-iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m0/Jarvis_pi_m0_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
-iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m1/Jarvis_pi_m1_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
-iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m2/Jarvis_pi_m2_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
-iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m3/Jarvis_pi_m3_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
-iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m4/Jarvis_pi_m4_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
-iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m5/Jarvis_pi_m5_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoGap/m0/Jarvis_pi_m0_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoGap/m1/Jarvis_pi_m1_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoGap/m2/Jarvis_pi_m2_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/Jarvis_pi_m3_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/Jarvis_pi_m4_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
+iqtree -s /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/Jarvis_pi_m5_lncRNA_nogap.phylip-relaxed -m GTR+I+R -B 1000 -nt AUTO
 
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m0/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m0/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m1/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m1/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m2/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m2/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m3/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m3/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m4/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m4/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m5/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m5/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m0/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m0/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m1/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m1/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m2/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m2/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m3/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m4/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/*lncRNA_nogap*iqtree /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m5/
 
 
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m0/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m0/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m1/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m1/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m2/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m2/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m3/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m3/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m4/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m4/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m5/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m5/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m0/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m0/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m1/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m1/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m2/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m2/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m3/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m4/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/*lncRNA_nogap*treefile /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m5/
 
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m0/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m0/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m1/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m1/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m2/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m2/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m3/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m3/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m4/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m4/
-mv /home/erenada/BirdTree/Alignments/AllSites/NoNoGap/m5/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoNoGap/lncRNA_nogap/m5/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m0/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m0/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m1/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m1/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m2/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m2/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m3/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m3/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m4/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m4/
+mv /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/*lncRNA_nogap*log /home/erenada/BirdTree/Trees/AllSites/NoGap/lncRNA_nogap/m5/
