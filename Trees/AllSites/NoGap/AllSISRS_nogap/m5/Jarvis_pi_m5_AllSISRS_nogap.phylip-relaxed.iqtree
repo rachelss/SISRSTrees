@@ -1,0 +1,305 @@
+IQ-TREE 1.7-beta16 built Sep 24 2019
+
+Input file name: /home/erenada/BirdTree/Alignments/AllSites/NoGap/m5/Jarvis_pi_m5_AllSISRS_nogap.phylip-relaxed
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 234225
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 48 sequences with 3350344 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 3344754
+Number of distinct site patterns: 2881349
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+R4
+
+Rate parameter R:
+
+  A-C: 0.9997
+  A-G: 5.0935
+  A-T: 0.6097
+  C-G: 1.2007
+  C-T: 5.0514
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2754
+  pi(C) = 0.2224
+  pi(G) = 0.2224
+  pi(T) = 0.2797
+
+Rate matrix Q:
+
+  A   -0.8911    0.1298    0.6616    0.0996
+  C    0.1608    -1.142     0.156    0.8252
+  G    0.8194     0.156    -1.139    0.1634
+  T   0.09807    0.6561    0.1299   -0.8841
+
+Model of rate heterogeneity: Invar+FreeRate with 4 categories
+Proportion of invariable sites: 0
+Site proportion and rates:  (0.08674,0.8874) (0.3789,0.8874) (0.4944,0.8882) (0.03998,3.694)
+
+ Category  Relative_rate  Proportion
+  1         0.8874         0.08674
+  2         0.8874         0.3789
+  3         0.8882         0.4944
+  4         3.694          0.03998
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -54494602.7002 (s.e. 12713.3660)
+Unconstrained log-likelihood (without tree): -48744873.2370
+Number of free parameters (#branches + #model parameters): 108
+Akaike information criterion (AIC) score: 108989421.4004
+Corrected Akaike information criterion (AICc) score: 108989421.4074
+Bayesian information criterion (BIC) score: 108990828.0543
+
+Total tree length (sum of branch lengths): 3.9026
+Sum of internal branch lengths: 0.6970 (17.8596% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'AcaChl' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---------------AcaChl
+|
+|                                                +--------------AnaPla
+|                                        +-------| (100)
+|                                        |       |                         +-----GalGal
+|                                        |       +-------------------------| (100)
+|                                        |                                 +-------MelGal
+|                                   +----| (100)
+|                                   |    |              +--------------StrCam
+|                                   |    +--------------| (100)
+|                                   |                   +----------------TinGut
+|                                +--| (100)
+|                                |  |     +-------------------ColLiv
+|                                |  |  +--| (100)
+|                                |  |  |  |  +-----------------MesUni
+|                                |  |  |  +--| (100)
+|                                |  |  |     +---------------PteGut
+|                                |  +--| (100)
+|                                |     |  +----PhoRub
+|                                |     +--| (100)
+|                                |        +---------PodCri
+|                             +--| (96)
+|                             |  |     +---------------ChlMac
+|                             |  |  +--| (67)
+|                             |  |  |  +---------------------CucCan
+|                             |  +--| (100)
+|                             |     +--------------TauEry
+|                          +--| (62)
+|                          |  |  +---------BalReg
+|                          |  +--| (78)
+|                          |     +---------ChaVoc
+|                       +--| (55)
+|                       |  +----------------OpiHoa
+|                    +--| (67)
+|                    |  |                 +--AptFor
+|                    |  |           +-----| (100)
+|                    |  |           |     +--PygAde
+|                    |  |        +--| (100)
+|                    |  |        |  +------FulGla
+|                    |  |     +--| (100)
+|                    |  |     |  |        +---------EgrGar
+|                    |  |     |  |     +--| (100)
+|                    |  |     |  |     |  +-------PelCri
+|                    |  |     |  |  +--| (100)
+|                    |  |     |  |  |  +-------NipNip
+|                    |  |     |  +--| (100)
+|                    |  |     |     +-----------PhaCar
+|                    |  |  +--| (100)
+|                    |  |  |  +--------GavSte
+|                    |  +--| (100)
+|                    |     |  +----------------EurHel
+|                    |     +--| (100)
+|                    |        +-----------PhaLep
+|                 +--| (100)
+|                 |  |  +------------AntCar
+|                 |  +--| (100)
+|                 |     |    +---------------------CalAnn
+|                 |     +----| (100)
+|                 |          +-----------------ChaPel
+|              +--| (100)
+|              |  |              +-------------------ApaVit
+|              |  |           +--| (100)
+|              |  |           |  |  +--------------------BucRhi
+|              |  |           |  +--| (100)
+|              |  |           |     |  +-------------------MerNub
+|              |  |           |     +--| (100)
+|              |  |           |        +---------------------------PicPub
+|              |  |        +--| (100)
+|              |  |        |  +------------LepDis
+|              |  |     +--| (48)
+|              |  |     |  +------------TytAlb
+|              |  |  +--| (52)
+|              |  |  |  |  +-----CatAur
+|              |  |  |  +--| (100)
+|              |  |  |     |          +--HalAlb
+|              |  |  |     +----------| (100)
+|              |  |  |                +--HalLeu
+|              |  +--| (100)
+|              |     +----------------------ColStr
+|           +--| (100)
+|           |  +----------CarCri
+|        +--| (100)
+|        |  +-------------FalPer
++--------| (100)
+|        |            +-----------MelUnd
+|        +------------| (100)
+|                     +-------NesNot
+|
+|             +-------CorBra
+|  +----------| (100)
+|  |          |      +------GeoFor
+|  |          +------| (100)
+|  |                 +------TaeGut
++--| (100)
+   +-------------ManVit
+
+Tree in newick format:
+
+(AcaChl:0.0842122029,((((((((((((AnaPla:0.0798934817,(GalGal:0.0355140328,MelGal:0.0419936917)100:0.1374539998)100:0.0432469208,(StrCam:0.0781512111,TinGut:0.0919299029)100:0.0797004918)100:0.0276970863,((ColLiv:0.1039337258,(MesUni:0.0962759086,PteGut:0.0830914620)100:0.0032585193)100:0.0009088621,(PhoRub:0.0292226853,PodCri:0.0557842409)100:0.0162746513)100:0.0005110661)100:0.0004103505,((ChlMac:0.0830237896,CucCan:0.1175495741)67:0.0018822276,TauEry:0.0774704508)100:0.0008071095)96:0.0003883419,(BalReg:0.0532438493,ChaVoc:0.0544484529)78:0.0012666862)62:0.0002336104,OpiHoa:0.0878906312)55:0.0003209099,(((((AptFor:0.0091109679,PygAde:0.0120807868)100:0.0335705460,FulGla:0.0384315694)100:0.0005399078,(((EgrGar:0.0540201526,PelCri:0.0436395401)100:0.0014059604,NipNip:0.0411561486)100:0.0014086509,PhaCar:0.0638630830)100:0.0020675177)100:0.0013700996,GavSte:0.0485878765)100:0.0015177102,(EurHel:0.0886147348,PhaLep:0.0642198324)100:0.0028511984)100:0.0007464638)67:0.0006332622,(AntCar:0.0697275530,(CalAnn:0.1146664833,ChaPel:0.0966153286)100:0.0297977257)100:0.0029181093)100:0.0024714494,(((((ApaVit:0.1060527160,(BucRhi:0.1120569110,(MerNub:0.1065337707,PicPub:0.1466820173)100:0.0066801570)100:0.0033379518)100:0.0013127449,LepDis:0.0697805601)100:0.0019092594,TytAlb:0.0676021152)48:0.0003195524,(CatAur:0.0334008572,(HalAlb:0.0006486318,HalLeu:0.0006479827)100:0.0572878775)100:0.0014831594)52:0.0002310988,ColStr:0.1228043150)100:0.0003107681)100:0.0010007064,CarCri:0.0613413118)100:0.0009877547,FalPer:0.0756380222)100:0.0015270166,(MelUnd:0.0619944636,NesNot:0.0458994698)100:0.0666555589)100:0.0488788958,((CorBra:0.0432502755,(GeoFor:0.0377754939,TaeGut:0.0396577083)100:0.0375490643)100:0.0603005325,ManVit:0.0755054481)100:0.0115637592);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -54494602.700179152
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------------AcaChl
+|
+|                                                +--------------AnaPla
+|                                        +-------| (100)
+|                                        |       |                         +-----GalGal
+|                                        |       +-------------------------| (100)
+|                                        |                                 +-------MelGal
+|                                   +----| (100)
+|                                   |    |              +--------------StrCam
+|                                   |    +--------------| (100)
+|                                   |                   +----------------TinGut
+|                                +--| (100)
+|                                |  |     +-------------------ColLiv
+|                                |  |  +--| (100)
+|                                |  |  |  |  +-----------------MesUni
+|                                |  |  |  +--| (100)
+|                                |  |  |     +---------------PteGut
+|                                |  +--| (100)
+|                                |     |  +----PhoRub
+|                                |     +--| (100)
+|                                |        +---------PodCri
+|                             +--| (96)
+|                             |  |     +---------------ChlMac
+|                             |  |  +--| (67)
+|                             |  |  |  +---------------------CucCan
+|                             |  +--| (100)
+|                             |     +--------------TauEry
+|                          +--| (62)
+|                          |  |  +---------BalReg
+|                          |  +--| (78)
+|                          |     +---------ChaVoc
+|                       +--| (55)
+|                       |  +----------------OpiHoa
+|                    +--| (67)
+|                    |  |                 +--AptFor
+|                    |  |           +-----| (100)
+|                    |  |           |     +--PygAde
+|                    |  |        +--| (100)
+|                    |  |        |  +------FulGla
+|                    |  |     +--| (100)
+|                    |  |     |  |        +---------EgrGar
+|                    |  |     |  |     +--| (100)
+|                    |  |     |  |     |  +-------PelCri
+|                    |  |     |  |  +--| (100)
+|                    |  |     |  |  |  +-------NipNip
+|                    |  |     |  +--| (100)
+|                    |  |     |     +-----------PhaCar
+|                    |  |  +--| (100)
+|                    |  |  |  +--------GavSte
+|                    |  +--| (100)
+|                    |     |  +----------------EurHel
+|                    |     +--| (100)
+|                    |        +-----------PhaLep
+|                 +--| (100)
+|                 |  |  +------------AntCar
+|                 |  +--| (100)
+|                 |     |    +---------------------CalAnn
+|                 |     +----| (100)
+|                 |          +-----------------ChaPel
+|              +--| (100)
+|              |  |              +-------------------ApaVit
+|              |  |           +--| (100)
+|              |  |           |  |  +--------------------BucRhi
+|              |  |           |  +--| (100)
+|              |  |           |     |  +-------------------MerNub
+|              |  |           |     +--| (100)
+|              |  |           |        +---------------------------PicPub
+|              |  |        +--| (100)
+|              |  |        |  +------------LepDis
+|              |  |     +--| (48)
+|              |  |     |  +------------TytAlb
+|              |  |  +--| (52)
+|              |  |  |  |  +-----CatAur
+|              |  |  |  +--| (100)
+|              |  |  |     |          +--HalAlb
+|              |  |  |     +----------| (100)
+|              |  |  |                +--HalLeu
+|              |  +--| (100)
+|              |     +----------------------ColStr
+|           +--| (100)
+|           |  +----------CarCri
+|        +--| (100)
+|        |  +-------------FalPer
++--------| (100)
+|        |            +-----------MelUnd
+|        +------------| (100)
+|                     +-------NesNot
+|
+|             +-------CorBra
+|  +----------| (100)
+|  |          |      +------GeoFor
+|  |          +------| (100)
+|  |                 +------TaeGut
++--| (100)
+   +-------------ManVit
+
+
+Consensus tree in newick format: 
+
+(AcaChl:0.0842122103,((((((((((((AnaPla:0.0798934663,(GalGal:0.0355139959,MelGal:0.0419936823)100:0.1374539785)100:0.0432469254,(StrCam:0.0781512041,TinGut:0.0919298992)100:0.0797004833)100:0.0276971083,((ColLiv:0.1039338498,(MesUni:0.0962761926,PteGut:0.0830918137)100:0.0032585561)100:0.0009088654,(PhoRub:0.0292226704,PodCri:0.0557842415)100:0.0162747730)100:0.0005110796)100:0.0004103407,((ChlMac:0.0830238426,CucCan:0.1175496383)67:0.0018822041,TauEry:0.0774704994)100:0.0008071117)96:0.0003883342,(BalReg:0.0532438499,ChaVoc:0.0544484652)78:0.0012666905)62:0.0002336010,OpiHoa:0.0878906676)55:0.0003209207,(((((AptFor:0.0091109622,PygAde:0.0120807767)100:0.0335705295,FulGla:0.0384315801)100:0.0005398944,(((EgrGar:0.0540201711,PelCri:0.0436395393)100:0.0014059341,NipNip:0.0411561536)100:0.0014086551,PhaCar:0.0638630915)100:0.0020675116)100:0.0013700828,GavSte:0.0485878807)100:0.0015177167,(EurHel:0.0886147680,PhaLep:0.0642198898)100:0.0028511887)100:0.0007464202)67:0.0006332474,(AntCar:0.0697275618,(CalAnn:0.1146664986,ChaPel:0.0966153398)100:0.0297977061)100:0.0029181067)100:0.0024714400,(((((ApaVit:0.1060527156,(BucRhi:0.1120569071,(MerNub:0.1065338171,PicPub:0.1466820406)100:0.0066801195)100:0.0033379435)100:0.0013127233,LepDis:0.0697805782)100:0.0019092518,TytAlb:0.0676021304)48:0.0003195428,(CatAur:0.0334008751,(HalAlb:0.0006486414,HalLeu:0.0006479892)100:0.0572879143)100:0.0014831480)52:0.0002311186,ColStr:0.1228042855)100:0.0003107907)100:0.0010006982,CarCri:0.0613413020)100:0.0009877295,FalPer:0.0756380176)100:0.0015270060,(MelUnd:0.0619944388,NesNot:0.0458994563)100:0.0666555622)100:0.0488789196,((CorBra:0.0432502562,(GeoFor:0.0377754686,TaeGut:0.0396576785)100:0.0375490779)100:0.0603005426,ManVit:0.0755054545)100:0.0115637513);
+
+TIME STAMP
+----------
+
+Date and time: Fri Jun  5 08:56:37 2020
+Total CPU time used: 282718.4813 seconds (78h:31m:58s)
+Total wall-clock time used: 40140.67996 seconds (11h:9m:0s)
+
