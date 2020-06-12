@@ -4,7 +4,18 @@ library(tidyverse)
 combined_outgroup <- c("TinGut","StrCam")
 files <- list.files(pattern = "treefile", recursive = TRUE)
 t <- read.tree(files[[1]])
+
 combined_chronos <- root.phylo(t, outgroup=combined_outgroup,resolve.root = TRUE)
+write.tree(combined_chronos, "t.tre")
+
+#### root all trees and rewrite (done, don't repeat)
+for (f in files){
+  t <- read.tree(f)
+  t2 <- root.phylo(t, outgroup=combined_outgroup,resolve.root = TRUE)
+  write.tree(t2, paste0(f,".chro"))
+}
+
+####### Chronos method (or skip to reltime)
 
 node <- c(
   getMRCA(combined_chronos, tip = c("TinGut","PicPub") ), # Root of tree
@@ -46,3 +57,9 @@ axisPhylo()
 abline(v=c(combined_medians["Root"]-109,
            combined_medians["Root"]-99,
            combined_medians["Root"]-83))
+
+########## Reltime method
+#run ipynb
+chr_files <- list.files(pattern = ".chro.tre", recursive = TRUE)
+t <- read.tree(chr_files[[1]])
+plot(t)

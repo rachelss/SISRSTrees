@@ -1,0 +1,29 @@
+---
+title: "Bird Trees"
+author: "Rachel Schwartz"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+```{r,fig.keep='all', results = 'hide', message=FALSE}
+library(ape)
+chr_files <- list.files(pattern = ".chro.tre", recursive = TRUE)
+
+```
+
+```{r,fig.keep='all', results = 'hide', message=FALSE}
+for (f in chr_files){
+  t <- read.tree(f)
+  print(f)
+  plot(t)
+  title(main = f)
+  axisPhylo()
+  ltt.plot(t)
+}
+```
+
